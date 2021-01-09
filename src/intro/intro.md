@@ -2,8 +2,6 @@
 
 Welcome to Zero to IoT! This book will take you through designing/building your own prototype "Internet Of Things" board, writing firmware for it, and then designing software that runs in the cloud to aggregate data from said board(s)!
 
-Now is the perfect time to learn about how some of this stuff works. For the average person, hardware and software are taken for granted. To me, it seems like magic. It's definitely as close to magic as we can get. We leverage electricity and a few key properties to perform some of the greatest miracles of our time. Think of just the GPS in a phone. It allows you to know your location in real time. But how difficult is it to accomplish this?
-
 We are going to take a wild ride together. There will be tears, there will be laughter, there will hopefully be some learning for learning's sake.
 
 We will mostly be using the Rust Programming Language to program our IoT board, as well as our application that will collect information from our board.
@@ -11,6 +9,26 @@ We will mostly be using the Rust Programming Language to program our IoT board, 
 I don't need to convince you of the benefits of using this language. If we can set it up, we can use it for ALL of our work! Sounds great because it is.
 
 > This book assumes no prior Rust experience. However, does assume you have _some_ programming experience. As there exists _tons_ of Rust documentation, I will link out to existing sources for relevant information.
+
+## The Plan
+
+We will build a board that has GPS, an Accelerometer, and an LTE capable processor. We will also add an I2C QT Stemma connector so we can attach another sensor board. With this setup we can use the Accelerometer to wake up our processor and send information, including GPS coordinates, to the cloud.
+
+## Technologies & Tools Covered
+
+* [RustLang](https://rust-lang.org) - Rust Programming Language
+* [EasyEDA](https://easyeda.com/) - Schematic and PCB Design
+* [GitHub](https://github.com) - Code Repository
+* [Docker](https://www.docker.com/) - Containers
+* [Kubernetes](https://kubernetes.io/) - Deploying Containers
+* Cloud Services
+    * [AWS](https://aws.amazon.com/) - Amazon Cloud Web Services
+    * [GCP](https://cloud.google.com/) - Google Cloud Web Services
+    * [Digital Ocean](https://www.digitalocean.com/) - Digital Ocean Cloud Web Services
+* Electrical Components
+    * GPS
+    * Accelerometer
+    * LTE
 
 ## How to read this book
 

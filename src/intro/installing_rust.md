@@ -1,4 +1,4 @@
-# Getting Started
+# Installing Rust
 
 _The following instructions are lovingly taken from the [Official Rust Book](https://doc.rust-lang.org/book/ch01-01-installation.html)_
 

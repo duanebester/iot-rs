@@ -1,0 +1,3 @@
+# Foreward
+
+Now is the perfect time to learn about how some of this stuff works. For the average person, hardware and software are taken for granted. To me, it seems like magic. It's definitely as close to magic as we can get. We leverage electricity and a few key properties to perform some of the greatest miracles of our time. Think of just the GPS in a phone. It allows you to know your location in real time. But how difficult is it to accomplish this?
