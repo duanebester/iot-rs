@@ -3,7 +3,10 @@ authors = ["Duane Bester"]
 language = "en"
 multilingual = false
 src = "src"
-title = "IoT with Rust"
+title = "From Zero to IoT"
 
 [output.html]
 git-repository-url = "https://github.com/duanebester/iot-rs"
+
+[output.html.playground]
+editable = true
